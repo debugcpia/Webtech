@@ -7,24 +7,20 @@
 </head>
 <body>
 
-    <h1>Student Registration Form</h1>
-
+    <h1> Student Registration Form </h1>
     <form action="#" method="post">
-
-        <!-- Full Name -->
         <label for="fullname">Full Name:</label><br>
         <input
             type="text"
             id="fullname"
             name="fullname"
-            placeholder="Enter your full name"
+            placeholder="Enter your whole name"
             minlength="3"
             maxlength="50"
             required
         >
         <br><br>
 
-        <!-- Student ID -->
         <label for="studentid">Student ID:</label><br>
         <input
             type="text"
@@ -35,31 +31,28 @@
         >
         <br><br>
 
-        <!-- Email -->
         <label for="email">Email:</label><br>
         <input
             type="email"
             id="email"
             name="email"
-            placeholder="example@email.com"
+            placeholder="example@gmail.com"
             required
         >
         <br><br>
 
-        <!-- Password -->
         <label for="password">Password:</label><br>
         <input
             type="password"
             id="password"
             name="password"
-            placeholder="Enter your password"
+            placeholder="Enter your Password"
             minlength="8"
             maxlength="20"
             required
         >
         <br><br>
 
-        <!-- Birthday -->
         <label for="birthday">Birthday:</label><br>
         <input
             type="date"
@@ -69,9 +62,7 @@
         >
         <br><br>
 
-        <!-- Gender -->
         <label>Gender:</label><br>
-
         <input
             type="radio"
             id="male"
@@ -87,7 +78,7 @@
             name="gender"
             value="Female"
         >
-        <label for="female">Female</label>
+        <label for="Female">Female</label>
 
         <input
             type="radio"
@@ -95,47 +86,43 @@
             name="gender"
             value="Other"
         >
-        <label for="other">Other</label>
+        <label for="other">Other:</label>
 
         <br><br>
 
-        <!-- Program -->
-        <label for="program">Program:</label><br>
-        <select id="program" name="program" required>
-            <option value="">-- Select Program --</option>
-            <option value="BSIT">BS Information Technology</option>
-            <option value="BSCS">BS Computer Science</option>
-            <option value="BSIS">BS Information Systems</option>
-            <option value="BSE">Bachelor of Secondary Education</option>
+        
+        <label for="probram">Program</label><br>
+        <select name="program" id="program" required>
+            <option value=""> Select Program </option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSCS">BSCS</option>
+            <option value="BSDA">BSDA</option>
+            <option value="MMA">MMA</option>
         </select>
-
         <br><br>
 
-        <!-- Hobbies -->
-        <label>Hobbies:</label><br>
-
-        <input
+        <label>Hobbies</label><br>
+        <input 
             type="checkbox"
             id="reading"
             name="hobbies"
             value="Reading"
         >
-        <label for="reading">Reading</label><br>
-
+        <label for="reading">Reading</label>
         <input
             type="checkbox"
             id="gaming"
             name="hobbies"
             value="Gaming"
-        >
+            >
         <label for="gaming">Gaming</label><br>
-
-        <input
+        <input 
             type="checkbox"
             id="music"
             name="hobbies"
             value="Music"
-        >
+            >
+        
         <label for="music">Listening to Music</label><br>
 
         <input
@@ -175,7 +162,6 @@
 
         <br><br>
 
-        <!-- Buttons -->
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
 
