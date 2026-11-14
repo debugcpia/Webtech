@@ -1,0 +1,1558 @@
+commit 9c47412fc3a4cb9418edd23190ab9f57b3f94a57
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-10-10 01:41:29 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-10-10 01:41:29 +0000
+
+    emmet update
+
+diff --git a/HTML-LAB/images/profile.png b/HTML-LAB/images/profile.png
+index 9526e24..25e8dc0 100644
+Binary files a/HTML-LAB/images/profile.png and b/HTML-LAB/images/profile.png differ
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index c7505c5..aa36991 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -33,7 +33,7 @@
+                             </input>
+                         </input>
+                     </input>
+-                </input>
++                </input> 
+             </input>
+         </input>
+     </input>
+diff --git a/emmet-laboratory/images/profile.png b/emmet-laboratory/images/profile.png
+new file mode 100644
+index 0000000..25e8dc0
+Binary files /dev/null and b/emmet-laboratory/images/profile.png differ
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 6cc124a..6935eb6 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -12,18 +12,18 @@
+     <header>
+         <nav>
+             <ul>
+-                <li><a href="">Home</a></li>
+-                <li><a href="">About</a></li>
+-                <li><a href="">Skills</a></li>
+-                <li><a href="">Projects</a></li>
+-                <li><a href="">Contacts</a></li>
++                <li><a href="#home">Home</a></li>
++                <li><a href="#about">About</a></li>
++                <li><a href="#skills">Skills</a></li>
++                <li><a href="#projects">Projects</a></li>
++                <li><a href="#contacts">Contacts</a></li>
+             </ul>
+         </nav>
+     </header>
+ 
+     <section id="about"> 
+         <p>I am Pia Bianca A. Manzano, born on January 23, 2005, from the province of Isabela. Currently, I am a 2nd-year BSIT student majoring in Web Technology. My primary focus is completely on my college journey—navigating my academics, mastering core programming concepts, and building a strong foundation in tech as I work toward completing my degree.</p>
+-        <img src="images/profile.jpg" alt="Profile Photo">
++        <img src="images/profile.png" alt="Profile Photo">
+     </section>
+ 
+ 
+@@ -53,11 +53,11 @@
+         <div class="project-card">
+             <h3>Project 3</h3>
+             <p>Royal Paw is a modern pet marketplace where you can browse, shop, and order your pet’s essentials in just a few taps. With a clean interface and carefully curated categories, it helps you find what you need quickly while keeping the shopping experience easy and stress-free.</p>
+-            <a href="https://www.figma.com/proto/lZ3ykw6tG6Fk2CWAvuOO4U/Final-Prototype--ip---Copy-?node-id=1-175&p=f&t=Qm7QJgGo3UigQhd8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A175">Rayal Paw Prototype</a>
++            <a href="https://www.figma.com/proto/lZ3ykw6tG6Fk2CWAvuOO4U/Final-Prototype--ip---Copy-?node-id=1-175&p=f&t=Qm7QJgGo3UigQhd8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A175">Royal Paw Prototype</a>
+         </div>
+     </section>
+ 
+-    <section id="contact">
++    <section id="contacts">
+         <h2>Contact</h2>
+         <form action="">
+             <div class="label">Name</div>
+
+commit 6a9d153c659904baeb827e3c09cc5837cea9c32b
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-10-08 01:54:03 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-10-08 01:54:03 +0000
+
+    emmet lab
+
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index c3790da..c7505c5 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -10,3 +10,31 @@
+ 
+ <input type="submit" value="">
+ 
++<form action="">
++    <div class="label">Student ID</div>
++    <input type="number" name="" id="">
++        <div class="label">Full Name</div>
++        <input type="text" name="" id="">
++            <div class="label">Email</div>
++            <input type="email" name="" id="">
++                <div class="label">Password</div>
++                <input type="password" name="" id="">
++                    <div class="label">Gender</div>
++                    <input type="text" name="" id="">
++                        <div class="label">Course</div>
++                        <input type="text" name="" id="">
++                            <div class="label">Hobbies</div>
++                            <input type="checkbox" name="" id="">
++                                <div class="label">Address</div>
++                                <input type="text" name="" id="">
++                                    <div class="label">Submit Button</div>
++                                    <input type="submit" value="">
++                                </input>
++                            </input>
++                        </input>
++                    </input>
++                </input>
++            </input>
++        </input>
++    </input>
++</form>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index e1a9955..6cc124a 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -7,7 +7,7 @@
+ </head>
+ <body>
+     <h1>Pia Bianca A. Manzano</h1>
+-    <p>Hello! I am a 2nd year BSIT student majoring in Web Technology</p>
++    <p>Hello! I am a 2nd year BSIT student majoring in Web Technology. Currently focusing on my college studies, learning core programming concepts, and building a strong foundation in web development.</p>
+ 
+     <header>
+         <nav>
+@@ -22,10 +22,11 @@
+     </header>
+ 
+     <section id="about"> 
+-        <p>I was born on January 23, 2005 in Tarlac City.</p>
++        <p>I am Pia Bianca A. Manzano, born on January 23, 2005, from the province of Isabela. Currently, I am a 2nd-year BSIT student majoring in Web Technology. My primary focus is completely on my college journey—navigating my academics, mastering core programming concepts, and building a strong foundation in tech as I work toward completing my degree.</p>
+         <img src="images/profile.jpg" alt="Profile Photo">
+     </section>
+ 
++
+     <section id="skills">
+         <h1>Skills</h1>
+         <ul>
+@@ -37,27 +38,47 @@
+         </ul>
+     </section>
+ 
+-    <section id="projects" class="content-section">
+-        <h1>Projects</h1>
+-        <div class="card featured">
+-            <h2>Project 1</h2>
+-            <p>This is the project 1</p>
+-            <a href="https://www.google.com">Google</a>
++    <section id="projects">
++        <h2>Projects</h2>
++        <div class="project-card">
++            <h3>Project 1</h3>
++            <p>Royal Paw is a modern pet marketplace where you can browse, shop, and order your pet’s essentials in just a few taps. With a clean interface and carefully curated categories, it helps you find what you need quickly while keeping the shopping experience easy and stress-free.</p>
++            <a href="https://www.figma.com/proto/lZ3ykw6tG6Fk2CWAvuOO4U/Final-Prototype--ip---Copy-?node-id=1-175&p=f&t=Qm7QJgGo3UigQhd8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A175">Rayal Paw Prototype</a>
+         </div>
+-
+-        <div class="card featured">
+-            <h2>Project 2</h2>
+-            <p>This is the project 2</p>
+-            <a href="https://www.google.com">Google</a>
++        <div class="project-card">
++            <h3>Project 2</h3>
++            <p>Royal Paw is a modern pet marketplace where you can browse, shop, and order your pet’s essentials in just a few taps. With a clean interface and carefully curated categories, it helps you find what you need quickly while keeping the shopping experience easy and stress-free.</p>
++            <a href="https://www.figma.com/proto/lZ3ykw6tG6Fk2CWAvuOO4U/Final-Prototype--ip---Copy-?node-id=1-175&p=f&t=Qm7QJgGo3UigQhd8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A175">Rayal Paw Prototype</a>
+         </div>
+-
+-        <div class="card featured">
+-            <h2>Project 3</h2>
+-            <p>This is the project 3</p>
+-            <a href="https://www.google.com">Google</a>
++        <div class="project-card">
++            <h3>Project 3</h3>
++            <p>Royal Paw is a modern pet marketplace where you can browse, shop, and order your pet’s essentials in just a few taps. With a clean interface and carefully curated categories, it helps you find what you need quickly while keeping the shopping experience easy and stress-free.</p>
++            <a href="https://www.figma.com/proto/lZ3ykw6tG6Fk2CWAvuOO4U/Final-Prototype--ip---Copy-?node-id=1-175&p=f&t=Qm7QJgGo3UigQhd8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A175">Rayal Paw Prototype</a>
+         </div>
+     </section>
+ 
++    <section id="contact">
++        <h2>Contact</h2>
++        <form action="">
++            <div class="label">Name</div>
++            <input type="text" name="" id="">
++                <div class="label">Email</div>
++                <input type="email" name="" id="">
++                    <div class="label">Subject</div>
++                    <input type="text" name="" id="">
++                        <div class="label">Message</div>
++                        <input type="text" name="" id="">
++                            <div class="label">Submit Button</div>
++                            <input type="button" value="">
++                                <footer></footer>
++                                <p>2026 - Pia Manzano</p>
++                            </input>
++                        </input>
++                    </input>
++                </input>
++            </input>
++        </form>
++    </section>
+     
+ </body>
+ </html>
+\ No newline at end of file
+
+commit a9a3c17d435831d29d8a9ad45dc637d717dbefed
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-10-06 01:47:39 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-10-06 01:47:39 +0000
+
+    update
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 8c4fafa..c09d679 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -22,3 +22,15 @@
+ 
+ <a href="https://www.google.com">Google</a>
+ 
++<header>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Projects</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++</header>
++
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index d7c09a3..c3790da 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -8,4 +8,5 @@
+ 
+ <input type="radio" name="" id="">
+ 
+-<input type="submit" value="">
+\ No newline at end of file
++<input type="submit" value="">
++
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index abbf243..909e8e4 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -45,3 +45,8 @@
+ </div>
+ 
+ <div class="container"></div>
++
++
++<header>
++    <h1>Website</h1>
++</header>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 1b4d129..e1a9955 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -9,20 +9,55 @@
+     <h1>Pia Bianca A. Manzano</h1>
+     <p>Hello! I am a 2nd year BSIT student majoring in Web Technology</p>
+ 
+-    <nav>
++    <header>
++        <nav>
++            <ul>
++                <li><a href="">Home</a></li>
++                <li><a href="">About</a></li>
++                <li><a href="">Skills</a></li>
++                <li><a href="">Projects</a></li>
++                <li><a href="">Contacts</a></li>
++            </ul>
++        </nav>
++    </header>
++
++    <section id="about"> 
++        <p>I was born on January 23, 2005 in Tarlac City.</p>
++        <img src="images/profile.jpg" alt="Profile Photo">
++    </section>
++
++    <section id="skills">
++        <h1>Skills</h1>
+         <ul>
+-            <li>Home</li>
+-            <li>About</li>
+-            <li>Skills</li>
+-            <li>Projects</li>
+-            <li>Contact</li>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>PHP</li>
++            <li>Git</li>
++            <li>MySQL</li>
+         </ul>
+-    </nav>
++    </section>
+ 
+-    <section id="about"> 
+-    <p>I was born on January 23, 2005</p>
+-    <img src="images/profile.jpg" alt="Profile Photo">
++    <section id="projects" class="content-section">
++        <h1>Projects</h1>
++        <div class="card featured">
++            <h2>Project 1</h2>
++            <p>This is the project 1</p>
++            <a href="https://www.google.com">Google</a>
++        </div>
++
++        <div class="card featured">
++            <h2>Project 2</h2>
++            <p>This is the project 2</p>
++            <a href="https://www.google.com">Google</a>
++        </div>
++
++        <div class="card featured">
++            <h2>Project 3</h2>
++            <p>This is the project 3</p>
++            <a href="https://www.google.com">Google</a>
++        </div>
+     </section>
++
+     
+ </body>
+ </html>
+\ No newline at end of file
+
+commit fadbdc0961eda5fec750cb6286e6679139bb1e1e
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-10-03 01:57:18 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-10-03 01:57:18 +0000
+
+    emmet lab
+
+diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
+index fe3625d..7d156a1 100644
+--- a/HTML-LAB/registration.html
++++ b/HTML-LAB/registration.html
+@@ -91,7 +91,7 @@
+         <br><br>
+ 
+         
+-        <label for="probram">Program</label><br>
++        <label for="program">Program</label><br>
+         <select name="program" id="program" required>
+             <option value=""> Select Program </option>
+             <option value="BSIT">BSIT</option>
+@@ -115,6 +115,7 @@
+             name="hobbies"
+             value="Gaming"
+             >
++        <!---->
+         <label for="gaming">Gaming</label><br>
+         <input 
+             type="checkbox"
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..65069ff
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1></h1>
++    <h2></h2>
++    <p></p>
++    <div></div>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <footer></footer>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..40cbd8f
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,61 @@
++<p class="introduction">
++
++</p>
++
++<div id="container"></div>
++
++<div class="card featured"></div>
++
++<section id="about" class="content-section"></section>
++
++<ul>
++    <li></li>
++</ul>
++
++<nav>
++    <ul>
++        <li></li>
++    </ul>
++</nav>
++
++<nav>
++    <ul>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++    </ul>
++</nav>
++
++<h1></h1>
++<p></p>
++
++<h1></h1>
++<h2></h2>
++<p></p>
++<p></p>
++
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++
++<div></div>
++<div></div>
++<div></div>
++
++<p></p>
++<p></p>
++<p></p>
++<p></p>
++<p></p>
++
++<h1>Web Technologies</h1>
++
++<p>Welcome to my page</p>
++
++<h1>My Web Development Journey</h1>
++<p>I am leaning HTML, CSS, Javascript, and Web Development</p>
++
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..8c4fafa
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,24 @@
++<il>
++    <li class="item1"></li>
++    <li class="item2"></li>
++    <li class="item3"></li>
++    <li class="item4"></li>
++    <li class="item5"></li>
++</il>
++
++<ul>
++    <li>Menu 1</li>
++    <li>Menu 2</li>
++    <li>Menu 3</li>
++    <li>Menu 4</li>
++    <li>Menu 5</li>
++</ul>
++
++<input type="text">
++<input type="text" placeholder="Enter your name">
++<input type="email" placeholder="Enter your mail">
++
++<img src="images/profile.jpg" alt="Profile Photo">
++
++<a href="https://www.google.com">Google</a>
++
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..d7c09a3
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,11 @@
++<input type="text" name="" id="">
++
++<input type="email" name="" id="">
++
++<input type="password" name="" id="">
++
++<input type="checkbox" name="" id="">
++
++<input type="radio" name="" id="">
++
++<input type="submit" value="">
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..abbf243
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,47 @@
++<header></header>
++<nav></nav>
++<main></main>
++<section></section>
++<article></article>
++<aside></aside>
++<footer></footer>
++
++<header>
++    <h1></h1>
++</header>
++
++<nav>
++    <ul>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++    </ul>
++</nav>
++
++<main>
++    <section>
++        <article></article>
++    </section>
++</main>
++
++<footer>
++    <p></p>
++</footer>
++
++<div class="container">
++    <header>
++        <h1>My Porfolio</h1>
++        <p>Web Developer</p>
++        <nav>
++            <ul>
++                <li><a href="">Menu 1</a></li>
++                <li><a href="">Menu 2</a></li>
++                <li><a href="">Menu 3</a></li>
++                <li><a href="">Menu 4</a></li>
++            </ul>
++        </nav>
++    </header>
++</div>
++
++<div class="container"></div>
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..1b4d129
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Portfolio</title>
++</head>
++<body>
++    <h1>Pia Bianca A. Manzano</h1>
++    <p>Hello! I am a 2nd year BSIT student majoring in Web Technology</p>
++
++    <nav>
++        <ul>
++            <li>Home</li>
++            <li>About</li>
++            <li>Skills</li>
++            <li>Projects</li>
++            <li>Contact</li>
++        </ul>
++    </nav>
++
++    <section id="about"> 
++    <p>I was born on January 23, 2005</p>
++    <img src="images/profile.jpg" alt="Profile Photo">
++    </section>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit c64ce06233abea3a523e41848ffcd52cbd0e4135
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-09-26 02:05:53 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-09-26 02:05:53 +0000
+
+    update
+
+diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
+index 23d295e..fe3625d 100644
+--- a/HTML-LAB/registration.html
++++ b/HTML-LAB/registration.html
+@@ -7,24 +7,20 @@
+ </head>
+ <body>
+ 
+-    <h1>Student Registration Form</h1>
+-
++    <h1> Student Registration Form </h1>
+     <form action="#" method="post">
+-
+-        <!-- Full Name -->
+         <label for="fullname">Full Name:</label><br>
+         <input
+             type="text"
+             id="fullname"
+             name="fullname"
+-            placeholder="Enter your full name"
++            placeholder="Enter your whole name"
+             minlength="3"
+             maxlength="50"
+             required
+         >
+         <br><br>
+ 
+-        <!-- Student ID -->
+         <label for="studentid">Student ID:</label><br>
+         <input
+             type="text"
+@@ -35,31 +31,28 @@
+         >
+         <br><br>
+ 
+-        <!-- Email -->
+         <label for="email">Email:</label><br>
+         <input
+             type="email"
+             id="email"
+             name="email"
+-            placeholder="example@email.com"
++            placeholder="example@gmail.com"
+             required
+         >
+         <br><br>
+ 
+-        <!-- Password -->
+         <label for="password">Password:</label><br>
+         <input
+             type="password"
+             id="password"
+             name="password"
+-            placeholder="Enter your password"
++            placeholder="Enter your Password"
+             minlength="8"
+             maxlength="20"
+             required
+         >
+         <br><br>
+ 
+-        <!-- Birthday -->
+         <label for="birthday">Birthday:</label><br>
+         <input
+             type="date"
+@@ -69,9 +62,7 @@
+         >
+         <br><br>
+ 
+-        <!-- Gender -->
+         <label>Gender:</label><br>
+-
+         <input
+             type="radio"
+             id="male"
+@@ -87,7 +78,7 @@
+             name="gender"
+             value="Female"
+         >
+-        <label for="female">Female</label>
++        <label for="Female">Female</label>
+ 
+         <input
+             type="radio"
+@@ -95,47 +86,43 @@
+             name="gender"
+             value="Other"
+         >
+-        <label for="other">Other</label>
++        <label for="other">Other:</label>
+ 
+         <br><br>
+ 
+-        <!-- Program -->
+-        <label for="program">Program:</label><br>
+-        <select id="program" name="program" required>
+-            <option value="">-- Select Program --</option>
+-            <option value="BSIT">BS Information Technology</option>
+-            <option value="BSCS">BS Computer Science</option>
+-            <option value="BSIS">BS Information Systems</option>
+-            <option value="BSE">Bachelor of Secondary Education</option>
++        
++        <label for="probram">Program</label><br>
++        <select name="program" id="program" required>
++            <option value=""> Select Program </option>
++            <option value="BSIT">BSIT</option>
++            <option value="BSCS">BSCS</option>
++            <option value="BSDA">BSDA</option>
++            <option value="MMA">MMA</option>
+         </select>
+-
+         <br><br>
+ 
+-        <!-- Hobbies -->
+-        <label>Hobbies:</label><br>
+-
+-        <input
++        <label>Hobbies</label><br>
++        <input 
+             type="checkbox"
+             id="reading"
+             name="hobbies"
+             value="Reading"
+         >
+-        <label for="reading">Reading</label><br>
+-
++        <label for="reading">Reading</label>
+         <input
+             type="checkbox"
+             id="gaming"
+             name="hobbies"
+             value="Gaming"
+-        >
++            >
+         <label for="gaming">Gaming</label><br>
+-
+-        <input
++        <input 
+             type="checkbox"
+             id="music"
+             name="hobbies"
+             value="Music"
+-        >
++            >
++        
+         <label for="music">Listening to Music</label><br>
+ 
+         <input
+@@ -175,7 +162,6 @@
+ 
+         <br><br>
+ 
+-        <!-- Buttons -->
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+ 
+
+commit 537fa4d8a98865d5147552d89e840dc205ebde19
+Author:     pia <manzanopia10@gmail.com>
+AuthorDate: 2026-09-24 01:52:02 +0000
+Commit:     pia <manzanopia10@gmail.com>
+CommitDate: 2026-09-24 01:52:02 +0000
+
+    update
+
+diff --git a/HTML-LAB/image.html b/HTML-LAB/image.html
+index 4e569cb..a480bf7 100644
+--- a/HTML-LAB/image.html
++++ b/HTML-LAB/image.html
+@@ -1,15 +1,23 @@
++```html
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Document</title>
++    <title>Personal Profile</title>
+ </head>
+ <body>
+-    <img
+-    src="images/profile.jpg"
+-    alt="Profile photo"
+-    width="200"
+-    height="200">
++
++    <h1>Personal Profile</h1>
++
++    <a href="profile.png" target="_blank">
++        <img
++            src="/HTML-LAB/images/profile.png"
++            alt="Profile photo"
++            width="200"
++            height="200">
++    </a>
++
++
+ </body>
+-</html>
+\ No newline at end of file
++</html>
+diff --git a/HTML-LAB/profile picture.png b/HTML-LAB/images/profile.png
+similarity index 100%
+rename from HTML-LAB/profile picture.png
+rename to HTML-LAB/images/profile.png
+diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
+new file mode 100644
+index 0000000..23d295e
+--- /dev/null
++++ b/HTML-LAB/registration.html
+@@ -0,0 +1,185 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Registration Form</title>
++</head>
++<body>
++
++    <h1>Student Registration Form</h1>
++
++    <form action="#" method="post">
++
++        <!-- Full Name -->
++        <label for="fullname">Full Name:</label><br>
++        <input
++            type="text"
++            id="fullname"
++            name="fullname"
++            placeholder="Enter your full name"
++            minlength="3"
++            maxlength="50"
++            required
++        >
++        <br><br>
++
++        <!-- Student ID -->
++        <label for="studentid">Student ID:</label><br>
++        <input
++            type="text"
++            id="studentid"
++            name="studentid"
++            placeholder="Enter your student ID"
++            required
++        >
++        <br><br>
++
++        <!-- Email -->
++        <label for="email">Email:</label><br>
++        <input
++            type="email"
++            id="email"
++            name="email"
++            placeholder="example@email.com"
++            required
++        >
++        <br><br>
++
++        <!-- Password -->
++        <label for="password">Password:</label><br>
++        <input
++            type="password"
++            id="password"
++            name="password"
++            placeholder="Enter your password"
++            minlength="8"
++            maxlength="20"
++            required
++        >
++        <br><br>
++
++        <!-- Birthday -->
++        <label for="birthday">Birthday:</label><br>
++        <input
++            type="date"
++            id="birthday"
++            name="birthday"
++            required
++        >
++        <br><br>
++
++        <!-- Gender -->
++        <label>Gender:</label><br>
++
++        <input
++            type="radio"
++            id="male"
++            name="gender"
++            value="Male"
++            required
++        >
++        <label for="male">Male</label>
++
++        <input
++            type="radio"
++            id="female"
++            name="gender"
++            value="Female"
++        >
++        <label for="female">Female</label>
++
++        <input
++            type="radio"
++            id="other"
++            name="gender"
++            value="Other"
++        >
++        <label for="other">Other</label>
++
++        <br><br>
++
++        <!-- Program -->
++        <label for="program">Program:</label><br>
++        <select id="program" name="program" required>
++            <option value="">-- Select Program --</option>
++            <option value="BSIT">BS Information Technology</option>
++            <option value="BSCS">BS Computer Science</option>
++            <option value="BSIS">BS Information Systems</option>
++            <option value="BSE">Bachelor of Secondary Education</option>
++        </select>
++
++        <br><br>
++
++        <!-- Hobbies -->
++        <label>Hobbies:</label><br>
++
++        <input
++            type="checkbox"
++            id="reading"
++            name="hobbies"
++            value="Reading"
++        >
++        <label for="reading">Reading</label><br>
++
++        <input
++            type="checkbox"
++            id="gaming"
++            name="hobbies"
++            value="Gaming"
++        >
++        <label for="gaming">Gaming</label><br>
++
++        <input
++            type="checkbox"
++            id="music"
++            name="hobbies"
++            value="Music"
++        >
++        <label for="music">Listening to Music</label><br>
++
++        <input
++            type="checkbox"
++            id="sports"
++            name="hobbies"
++            value="Sports"
++        >
++        <label for="sports">Sports</label>
++
++        <br><br>
++
++        <!-- Address -->
++        <label for="address">Address:</label><br>
++        <textarea
++            id="address"
++            name="address"
++            rows="4"
++            cols="40"
++            placeholder="Enter your complete address"
++            maxlength="200"
++            required
++        ></textarea>
++
++        <br><br>
++
++        <!-- Comments -->
++        <label for="comments">Comments:</label><br>
++        <textarea
++            id="comments"
++            name="comments"
++            rows="5"
++            cols="40"
++            placeholder="Enter your comments"
++            maxlength="500"
++        ></textarea>
++
++        <br><br>
++
++        <!-- Buttons -->
++        <button type="submit">Submit</button>
++        <button type="reset">Reset</button>
++
++    </form>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
+new file mode 100644
+index 0000000..a6e64f2
+--- /dev/null
++++ b/HTML-LAB/schedule.html
+@@ -0,0 +1,66 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Weekly Class Schedule</title>
++</head>
++<body>
++
++    <table border="1">
++        <tr>
++            <th>Day</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++
++        <tr>
++            <td rowspan="2">Monday</td>
++            <td>8:00 AM</td>
++            <td>Web Development</td>
++            <td>LAB 1</td>
++            <td>n/a</td>
++        </tr>
++
++        <tr>
++            <td>10:00 AM</td>
++            <td>Database</td>
++            <td>LAB 2</td>
++            <td>n/a</td>
++        </tr>
++
++        <tr>
++            <td>Tuesday</td>
++            <td>8:00 AM</td>
++            <td>Programming</td>
++            <td>LAB 3</td>
++            <td>n/a</td>
++        </tr>
++
++        <tr>
++            <td>Wednesday</td>
++            <td colspan="2">9:00 AM - 11:00 AM<br>Computer Networks</td>
++            <td>ROOM 201</td>
++            <td>n/a</td>
++        </tr>
++
++        <tr>
++            <td>Thursday</td>
++            <td>10:00 AM</td>
++            <td>Information Management</td>
++            <td>ROOM 202</td>
++            <td>n/a</td>
++        </tr>
++
++        <tr>
++            <td>Friday</td>
++            <td colspan="2">8:00 AM - 10:00 AM<br>System Analysis</td>
++            <td>ROOM 203</td>
++            <td>n/a</td>
++        </tr>
++    </table>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 05ddf71d28dba43be8f46071937c00a31edb74d8
+Author:     Pia's Laptop <manzanopia10@gmail.com>
+AuthorDate: 2026-09-22 06:28:42 +0800
+Commit:     Pia's Laptop <manzanopia10@gmail.com>
+CommitDate: 2026-09-22 06:28:42 +0800
+
+    update
+
+diff --git a/HTML-LAB/profile picture.png b/HTML-LAB/profile picture.png
+new file mode 100644
+index 0000000..9526e24
+Binary files /dev/null and b/HTML-LAB/profile picture.png differ
+
+commit a83e76f50d2e89f024dde3bece143c0aa73e32ff
+Author:     Pia Manzano <manzanopia10@gmail.com>
+AuthorDate: 2026-09-17 09:48:14 +0800
+Commit:     Pia Manzano <manzanopia10@gmail.com>
+CommitDate: 2026-09-17 09:48:14 +0800
+
+    update
+
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+deleted file mode 100644
+index 2ba986f..0000000
+--- a/.vscode/launch.json
++++ /dev/null
+@@ -1,15 +0,0 @@
+-{
+-    // Use IntelliSense to learn about possible attributes.
+-    // Hover to view descriptions of existing attributes.
+-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+-    "version": "0.2.0",
+-    "configurations": [
+-        {
+-            "type": "chrome",
+-            "request": "launch",
+-            "name": "Launch Chrome against localhost",
+-            "url": "http://localhost:8080",
+-            "webRoot": "${workspaceFolder}"
+-        }
+-    ]
+-}
+\ No newline at end of file
+diff --git a/HTML-LAB/image.html b/HTML-LAB/image.html
+new file mode 100644
+index 0000000..4e569cb
+--- /dev/null
++++ b/HTML-LAB/image.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <img
++    src="images/profile.jpg"
++    alt="Profile photo"
++    width="200"
++    height="200">
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/link.html b/HTML-LAB/link.html
+index e69de29..0e4855b 100644
+--- a/HTML-LAB/link.html
++++ b/HTML-LAB/link.html
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Links</title>
++</head>
++<body>
++    <h2>Links</h2>
++    <p><a href="https://www.youtube.com/">Youtube</a></p>
++    <p><a href="https://www.google.com/">Google</a></p>
++    <p><a href="https://www.github.com/">Github</a></p>
++    <p><a href="https://www.uc-bcf.edu.ph/">UC Website</a></p>
++
++    <h2>Internal Links</h2>
++    <p><a href="list.html">List</a></p>
++    <p><a href="formatting.html">Formatting</a></p>
++    <p><a href="index.html">Index</a></p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/list.html b/HTML-LAB/list.html
+index e69de29..237ea7f 100644
+--- a/HTML-LAB/list.html
++++ b/HTML-LAB/list.html
+@@ -0,0 +1,46 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Lists</title>
++</head>
++<body>
++    <h2>Favorite Food</h2>
++    <ul>
++        <li>Pizza</li>
++        <li>Burger</li>
++        <li>Fries</li>
++        <li>Hotdog</li>
++        <li>Spagetti</li>
++        </ul>
++    
++    <h2>Top 5 Programming Languages</h2>
++    <ol>
++        <li>Javascript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++
++    <h2>Computer Science</h2>
++        <ul>
++            <li>Programming</li>
++            <ul>
++            <li>Java</li>
++            <li>Python</li>
++            <li>PHP</li>
++            </ul>
++        </ul>
++
++        <ul>
++            <li>Web Development </li>
++            <ul>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>Javascript</li>
++            </ul></ul>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 068c1fe213f08cab8ed78066a9d86bc520e75f3f
+Author:     Pia's Laptop <manzanopia10@gmail.com>
+AuthorDate: 2026-09-17 07:32:08 +0800
+Commit:     Pia's Laptop <manzanopia10@gmail.com>
+CommitDate: 2026-09-17 07:32:08 +0800
+
+    update
+
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+index b50f5e0..2ba986f 100644
+--- a/.vscode/launch.json
++++ b/.vscode/launch.json
+@@ -7,8 +7,9 @@
+         {
+             "type": "chrome",
+             "request": "launch",
+-            "name": "Open formatting.html",
+-            "file": "c:\\Users\\M307User\\Webtech\\formatting.html"
++            "name": "Launch Chrome against localhost",
++            "url": "http://localhost:8080",
++            "webRoot": "${workspaceFolder}"
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
+index 6d9b9f7..e329e3e 100644
+--- a/HTML-LAB/formatting.html
++++ b/HTML-LAB/formatting.html
+@@ -1,14 +1,35 @@
+ <!DOCTYPE html>
+-<html lang="en">
++<html>
+ <head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML Text Formatting</title>
+ </head>
+ <body>
+-    <p>
+-    <strong>HTML</strong> stands for
+-    <em>HyperText Markup Language</em>. </p>
+-      
++
++    <h1>HTML Text Formatting</h1>
++
++    <h2>Text Formatting Tags</h2>
++
++    <p><b>Bold text</b> uses the b tag.</p>
++
++    <p><strong>Important text</strong> uses the strong tag.</p>
++
++    <p><i>Italic text</i> uses the i tag.</p>
++
++    <p><em>Emphasized text</em> uses the em tag.</p>
++
++    <p><u>Underlined text</u> uses the u tag.</p>
++
++    <p><mark>Highlighted text</mark> uses the mark tag.</p>
++
++    <p><small>Small text</small> uses the small tag.</p>
++
++    <p><del>Deleted text</del> uses the del tag.</p>
++
++    <p><ins>Inserted text</ins> uses the ins tag.</p>
++
++    <p>H<sub>2</sub>O uses the sub tag.</p>
++
++    <p>E = mc<sup>2</sup> uses the sup tag.</p>
++
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/HTML-LAB/link.html b/HTML-LAB/link.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/HTML-LAB/list.html b/HTML-LAB/list.html
+new file mode 100644
+index 0000000..e69de29
+
+commit acaf17f299f41f5e3e1f1a16ce702991dfd8767e
+Author:     Pia Manzano <manzanopia10@gmail.com>
+AuthorDate: 2026-09-15 09:59:21 +0800
+Commit:     Pia Manzano <manzanopia10@gmail.com>
+CommitDate: 2026-09-15 09:59:21 +0800
+
+    HTML Activity
+
+diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/HTML-LAB/contact.html b/HTML-LAB/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/HTML-LAB/images/pages/formatting.html b/HTML-LAB/formatting.html
+similarity index 100%
+rename from HTML-LAB/images/pages/formatting.html
+rename to HTML-LAB/formatting.html
+diff --git a/HTML-LAB/images/pages/index.html b/HTML-LAB/index.html
+similarity index 100%
+rename from HTML-LAB/images/pages/index.html
+rename to HTML-LAB/index.html
+
+commit b9a50dede9da992947ce2658d97734f2213e93df
+Author:     Pia Manzano <manzanopia10@gmail.com>
+AuthorDate: 2026-09-15 09:56:29 +0800
+Commit:     Pia Manzano <manzanopia10@gmail.com>
+CommitDate: 2026-09-15 09:56:29 +0800
+
+    HTML Activity
+
+diff --git a/HTML-LAB/images/pages/formatting.html b/HTML-LAB/images/pages/formatting.html
+index e69de29..6d9b9f7 100644
+--- a/HTML-LAB/images/pages/formatting.html
++++ b/HTML-LAB/images/pages/formatting.html
+@@ -0,0 +1,14 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++    <p>
++    <strong>HTML</strong> stands for
++    <em>HyperText Markup Language</em>. </p>
++      
++</body>
++</html>
+\ No newline at end of file
+
+commit 85f532a1f4c1695ac80d717aad42ba9ab0bf773e
+Author:     Pia Manzano <manzanopia10@gmail.com>
+AuthorDate: 2026-09-15 09:55:55 +0800
+Commit:     Pia Manzano <manzanopia10@gmail.com>
+CommitDate: 2026-09-15 09:55:55 +0800
+
+    HTML Activity
+
+diff --git a/about.html b/HTML-LAB/images/pages/formatting.html
+similarity index 100%
+rename from about.html
+rename to HTML-LAB/images/pages/formatting.html
+diff --git a/index.html b/HTML-LAB/images/pages/index.html
+similarity index 100%
+rename from index.html
+rename to HTML-LAB/images/pages/index.html
+diff --git a/contact.html b/contact.html
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/formatting.html b/formatting.html
+deleted file mode 100644
+index 6d9b9f7..0000000
+--- a/formatting.html
++++ /dev/null
+@@ -1,14 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>HTML Text Formatting</title>
+-</head>
+-<body>
+-    <p>
+-    <strong>HTML</strong> stands for
+-    <em>HyperText Markup Language</em>. </p>
+-      
+-</body>
+-</html>
+\ No newline at end of file
+
+commit 6c407ca9128bb6e2d3e550a66f99ad7e6b2b2acd
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-15 09:51:23 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:51:23 +0800
+
+    HTML Activity
+
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+new file mode 100644
+index 0000000..b50f5e0
+--- /dev/null
++++ b/.vscode/launch.json
+@@ -0,0 +1,14 @@
++{
++    // Use IntelliSense to learn about possible attributes.
++    // Hover to view descriptions of existing attributes.
++    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
++    "version": "0.2.0",
++    "configurations": [
++        {
++            "type": "chrome",
++            "request": "launch",
++            "name": "Open formatting.html",
++            "file": "c:\\Users\\M307User\\Webtech\\formatting.html"
++        }
++    ]
++}
+\ No newline at end of file
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..6d9b9f7
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,14 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++    <p>
++    <strong>HTML</strong> stands for
++    <em>HyperText Markup Language</em>. </p>
++      
++</body>
++</html>
+\ No newline at end of file
+
+commit 08d5e88ff8385dada35b985948e4ab552cc181bb
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-15 09:34:52 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-15 09:34:52 +0800
+
+    LAB ACTIVITY 1
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..2ce7e2c
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Page</title>
++</head>
++<body>
++    <hr><hr/>
++    <h1>MY PERSONAL PAGE</h1>
++    <hr><hr/>
++
++    <h2>Pia Manzano</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <h3>About Me</h3>
++    <p>I am a 2nd year IT student majoring in Web Technology</p>
++
++    <h3>My Hobbies</h3>
++    <p>I enjoy photography, music, and gaming.</p>
++    
++    <hr><hr/>
++</body>
++</html>
+\ No newline at end of file
+
+commit 4b9de4c3efbd30a3726d35fa350ae5837d642241
+Author:     Pia's Laptop <manzanopia10@gmail.com>
+AuthorDate: 2026-09-07 20:21:14 +0800
+Commit:     Pia's Laptop <manzanopia10@gmail.com>
+CommitDate: 2026-09-07 20:21:14 +0800
+
+    added 2nd file
+
+diff --git a/demo2assignment.html b/demo2assignment.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/demo2assignment.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 86d83c0a67f50fe1b3e34ccc523d6f4ff0de2806
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-05 09:36:57 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-05 09:36:57 +0800
+
+    added html file
+
+diff --git a/demo.html b/demo.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/demo.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
